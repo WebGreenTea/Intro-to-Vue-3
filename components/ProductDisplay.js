@@ -32,7 +32,7 @@ app.component('product-display', {
           :style="{ backgroundColor: variant.color }">
         </div>
         
-        <button class="button" :class="{ disabledButton: !inStock }" :disabled="!inStock" v-on:click="addToCart">Add to Cart</button>
+        <button class="button" :class="{ disabledButton: !inStock }" :disabled="!inStock" v-on:click="addToCart">Add to Cartt</button>
       </div>
     </div>
   </div>`,
